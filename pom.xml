@@ -68,40 +68,7 @@
                    <autoversionsubmodules>true</autoversionsubmodules>
                </configuration>
            </plugin>
-           <plugin>
-               <groupId>com.mycila.maven-license-plugin</groupId>
-               <artifactId>maven-license-plugin</artifactId>
-               <version>1.8.0</version>
-               <configuration>
-                   <header>NOTICE</header>
-                   
-                   <excludes>
-                       <exclude>target/**</exclude>
-                       <exclude>src/main/java/com/sforce/**</exclude>
-                       <exclude>**/.gitignore</exclude>
-                       <exclude>**/*.dw</exclude>
-                       <exclude>**/*.txt</exclude>
-                       <exclude>**/*.ftl</exclude>
-                       <exclude>**/*.xml</exclude>
-                       <exclude>**/*.properties</exclude>
-                       <exclude>**/*.sample</exclude>
-                       <exclude>**/*.md</exclude>
-                       <exclude>**/build-number.txt</exclude>
-                       <exclude>**/*.sql</exclude>
-                       <exclude>**/*.css</exclude>
-                       <exclude>**/*.js</exclude>
-                       <exclude>LICENSE</exclude>
-                       <exclude>NOTICE</exclude>
-                   </excludes>
-               </configuration>
-               <executions>
-                   <execution>
-                       <goals>
-                           <goal>check</goal>
-                       </goals>
-                   </execution>
-               </executions>
-           </plugin>
+           
         </plugins>
     </build>
     <repositories>
