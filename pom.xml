@@ -74,7 +74,7 @@
                <version>1.8.0</version>
                <configuration>
                    <header>NOTICE</header>
-                   <strictChecking>true</strictChecking>
+                   
                    <excludes>
                        <exclude>target/**</exclude>
                        <exclude>src/main/java/com/sforce/**</exclude>
